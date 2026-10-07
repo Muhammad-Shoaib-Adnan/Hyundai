@@ -61,9 +61,9 @@ export default function Carlineup() {
             </h2>
             <div className="mx-auto mt-10 grid w-full max-w-[1200px] grid-cols-1 gap-x-6 gap-y-10 sm:mt-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
                 {vehicles.map((vehicle, index) => (
-                    <div key={index} className="px-2 text-center">
+                    <div key={index} className="px-2 sm:text-center">
                         <img src={vehicle.image} alt={vehicle.alt} className="mx-auto w-full object-contain"/>
-                        <h4 className="mt-3 text-[17px] font-medium uppercase">
+                        <h4 className="mt-3 text-[17px] font-bold uppercase">
                             {vehicle.name}
                         </h4>
                     </div>

@@ -20,7 +20,7 @@ export default function Trending() {
             <div className="mx-auto grid w-full max-w-[1260px] grid-cols-1 gap-4 px-4 sm:grid-cols-2 sm:px-6 md:gap-5 lg:grid-cols-3 lg:px-0">
                 {cards.map((card) => (
                     <div key={card.id} className="group relative h-[380px] overflow-hidden bg-black sm:h-[400px] md:h-[420px]" >
-                        <img src={card.image} alt="" className="absolute inset-0 h-full w-full object-fill transition-all duration-500 group-hover:scale-105 group-hover:opacity-0" />
+                        <img src={card.image} alt="" className="absolute inset-0 h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105 group-hover:opacity-0" />
                     </div>
                 ))}
             </div>

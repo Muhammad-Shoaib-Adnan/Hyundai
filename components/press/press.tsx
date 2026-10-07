@@ -46,7 +46,7 @@ export default function Press() {
                     {press.map((item) => (
                         <div key={item.title} className="group cursor-pointer">
                             <div className="h-[230px] w-full overflow-hidden sm:h-[260px] lg:h-[280px]">
-                                <img src={item.image} alt={item.title} className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"/>
+                                <img src={item.image} alt={item.title} className="h-full w-full object-cover object-center"/>
                             </div>
                             <p className="mt-4 text-[13px] leading-5 text-[#555] sm:text-[14px]">
                                 {item.date}
