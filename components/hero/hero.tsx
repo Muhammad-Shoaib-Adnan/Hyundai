@@ -1,22 +1,19 @@
-
 "use client";
 
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
 import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Hero() {
     const swiperRef = useRef(null);
 
     return (
-        <div className="relative w-full">
+        <div className="relative mx-10 pb-12">
              <div
-                className="absolute left-5 top-1/2 z-20 cursor-pointer">
+                className="hidden absolute left-[-20] top-[42%] text-2xl z-20 cursor-pointer md:flex">
                 <h1>❮</h1>
             </div>
             <Swiper
@@ -26,7 +23,7 @@ export default function Hero() {
                     disableOnInteraction: false,
                 }}
                 modules={[Pagination, Autoplay]}
-                className="mySwiper"
+                className="mySwiper sm:h-[50%]"
             >
                 <SwiperSlide>
                     <img src="/elantra-main-nation-banner.webp" alt="Hyundai Elantra 1.6"/>
@@ -80,7 +77,7 @@ export default function Hero() {
                     <img src="/home-banner-porter.webp" alt="Hyundai Porter H-100"/>
                 </SwiperSlide>
             </Swiper>
-            <div className="absolute right-5 top-1/2 z-20 cursor-pointer">
+            <div className="hidden absolute right-[-20] top-[42%] text-2xl z-20 cursor-pointer md:flex">
                 <h1>❯</h1>
             </div>
 

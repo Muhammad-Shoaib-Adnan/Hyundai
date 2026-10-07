@@ -7,10 +7,9 @@ export default function Header() {
 
     return (
         <header className="w-full bg-white">
-            <div className="hidden h-[60px] border-b border-[#e5e5e5] md:block">
-                <div className="mx-auto flex h-full w-full max-w-[1280px] items-center justify-end px-6 lg:px-0">
-
-                    <nav className="flex items-center text-[14px] text-[#333]">
+            <div className="hidden h-[47px] border-b border-[#e5e5e5] md:block">
+                <div className="mx-auto flex h-full w-full max-w-[1280px] items-center justify-end py-2.5 lg:px-0">
+                    <nav className="flex items-center text-[12px] font-medium text-[#333]">
                         <a href="#" className="px-[16px] transition-colors hover:text-[#002c5f]" >
                             Worldwide
                         </a>
@@ -35,8 +34,8 @@ export default function Header() {
                 </div>
             </div>
 
-            <div className="h-[70px] border-b border-[#eeeeee] md:h-[84px]">
-                <div className="mx-auto flex h-full w-full gap-[25px] xl:gap-[39px] max-w-[1280px] items-center px-5 md:px-6 lg:px-0">
+            <div className="border-b border-[#eeeeee] md:h-[64px]">
+                <div className="mx-auto flex h-full w-full gap-[25px] xl:gap-[39px] max-w-[1280px] justify-between md:justify-start items-center md:px-3 md:py-5">
                     <a href="#" className="flex shrink-0 items-center lg:mr-[37px]" >
                         <svg width="150" height="22" viewBox="0 0 150 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[125px] sm:w-[140px] lg:w-[150px]" >
                             <g clipPath="url(#p50v2k8jra)" fill="#002C5F" >
@@ -51,19 +50,19 @@ export default function Header() {
                         </svg>
                     </a>
                     <nav className="hidden h-full items-center gap-[25px] lg:flex">
-                        <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
+                        <a href="#" className="text-[14px] font-medium text-[#333] transition-colors hover:text-[#002c5f]" >
                             Find a Car
                         </a>
-                        <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
+                        <a href="#" className="text-[14px] font-medium text-[#333] transition-colors hover:text-[#002c5f]" >
                             After Sales
                         </a>
-                        <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
+                        <a href="#" className="text-[14px] font-medium text-[#333] transition-colors hover:text-[#002c5f]" >
                             Hyundai Pakistan
                         </a>
-                        <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
+                        <a href="#" className="text-[14px] font-medium text-[#333] transition-colors hover:text-[#002c5f]" >
                             Press Release
                         </a>
-                        <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
+                        <a href="#" className="text-[14px] font-medium text-[#333] transition-colors hover:text-[#002c5f]" >
                             Find a Dealer
                         </a>
                         <a href="#" className="flex shrink-0 items-center" >
@@ -71,7 +70,7 @@ export default function Header() {
                         </a>
 
                     </nav>
-                    <button type="button" className="flex h-[42px] w-[42px] flex-col items-center justify-center gap-[5px] rounded-sm border border-[#ddd] lg:hidden">
+                    <button type="button" className="flex h-[42px] w-[42px] flex-col items-center justify-center gap-[5px] lg:hidden">
                         <span
                             className={`h-[2px] w-[21px] bg-[#002c5f] transition-transform duration-300`}
                         />
