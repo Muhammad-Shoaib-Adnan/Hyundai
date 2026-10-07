@@ -16,12 +16,9 @@ export default function Hero() {
     return (
         <div className="relative w-full">
              <div
-                className="absolute left-5 top-1/2 z-20 -translate-y-1/2 cursor-pointer"
-
-            >
+                className="absolute left-5 top-1/2 z-20 cursor-pointer">
                 <h1>❮</h1>
             </div>
-
             <Swiper
                 pagination={{ clickable: true }}
                 autoplay={{
@@ -32,107 +29,58 @@ export default function Hero() {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img
-                        src="/elantra-main-nation-banner.webp"
-                        alt="Hyundai Elantra 1.6"
-                    />
+                    <img src="/elantra-main-nation-banner.webp" alt="Hyundai Elantra 1.6"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/palisade-banner-min.png"
-                        alt="Hyundai Palisade"
-                    />
+                    <img src="/palisade-banner-min.png" alt="Hyundai Palisade"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/hn-desktop-banner.webp"
-                        alt="Hyundai ICC partnership"
-                    />
+                    <img src="/hn-desktop-banner.webp" alt="Hyundai ICC partnership"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/hyundai-promise-1920x630-1.jpg"
-                        alt="Hyundai Promise"
-                    />
+                    <img src="/hyundai-promise-1920x630-1.jpg" alt="Hyundai Promise"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/monthly-installment-banner-notext.jpg"
-                        alt="Hyundai Cars Available on instalments"
-                    />
+                    <img src="/monthly-installment-banner-notext.jpg" alt="Hyundai Cars Available on instalments" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/tucson-hybrid-desktop-1920x630-min.jpg"
-                        alt="Hyundai Tucson"
-                    />
+                    <img src="/tucson-hybrid-desktop-1920x630-min.jpg" alt="Hyundai Tucson" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/sonata-n-line-banner-img.jpg"
-                        alt="Hyundai Sonata N-Line"
-                    />
+                    <img src="/sonata-n-line-banner-img.jpg" alt="Hyundai Sonata N-Line" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/Elantra-Hybrid-1920x630-min.jpg"
-                        alt="Hyundai Elantra Hybrid"
-                    />
+                    <img src="/Elantra-Hybrid-1920x630-min.jpg" alt="Hyundai Elantra Hybrid" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/IONIQ-5-Website-Desktop-1920x630-min.jpg"
-                        alt="Hyundai IONIQ 5"
-                    />
+                    <img src="/IONIQ-5-Website-Desktop-1920x630-min.jpg" alt="Hyundai IONIQ 5" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/IONIQ-6-main-banner.webp"
-                        alt="Hyundai IONIQ 6"
-                    />
+                    <img src="/IONIQ-6-main-banner.webp" alt="Hyundai IONIQ 6"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/TM-Website-Desktop.webp"
-                        alt="Hyundai SantaFe"
-                    />
+                    <img src="/TM-Website-Desktop.webp" alt="Hyundai SantaFe"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/home-banner-sonata-scaled.webp"
-                        alt="Hyundai Sonata"
-                    />
+                    <img src="/home-banner-sonata-scaled.webp" alt="Hyundai Sonata"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
-                        src="/home-banner-porter.webp"
-                        alt="Hyundai Porter H-100"
-                    />
+                    <img src="/home-banner-porter.webp" alt="Hyundai Porter H-100"/>
                 </SwiperSlide>
             </Swiper>
-
-            <div
-                className="absolute left-5 top-1/2 z-20 -translate-y-1/2 cursor-pointer"
-
-            >
-                <h1>❮</h1>
-            </div>
-
-            <div
-                className="absolute right-5 top-1/2 z-20 -translate-y-1/2 cursor-pointer"
-            >
+            <div className="absolute right-5 top-1/2 z-20 cursor-pointer">
                 <h1>❯</h1>
             </div>
 

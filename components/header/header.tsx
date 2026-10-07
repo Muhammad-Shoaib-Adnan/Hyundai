@@ -36,7 +36,7 @@ export default function Header() {
             </div>
 
             <div className="h-[70px] border-b border-[#eeeeee] md:h-[84px]">
-                <div className="mx-auto flex h-full w-full max-w-[1280px] items-center justify-between px-5 md:px-6 lg:px-0">
+                <div className="mx-auto flex h-full w-full gap-[25px] xl:gap-[39px] max-w-[1280px] items-center px-5 md:px-6 lg:px-0">
                     <a href="#" className="flex shrink-0 items-center lg:mr-[37px]" >
                         <svg width="150" height="22" viewBox="0 0 150 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[125px] sm:w-[140px] lg:w-[150px]" >
                             <g clipPath="url(#p50v2k8jra)" fill="#002C5F" >
@@ -50,7 +50,7 @@ export default function Header() {
                             </defs>
                         </svg>
                     </a>
-                    <nav className="hidden h-full items-center gap-[25px] lg:flex xl:gap-[39px]">
+                    <nav className="hidden h-full items-center gap-[25px] lg:flex">
                         <a href="#" className="whitespace-nowrap text-[17px] font-normal text-[#333] transition-colors hover:text-[#002c5f] xl:text-[19px]" >
                             Find a Car
                         </a>
